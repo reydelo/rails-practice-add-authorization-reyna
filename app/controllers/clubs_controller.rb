@@ -1,4 +1,4 @@
-class ClubsController < ApplicationController
+class ClubsController < SecretsController
 
   def index
     @clubs = Club.all
